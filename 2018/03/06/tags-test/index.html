@@ -53,16 +53,16 @@
 <link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/mylogo160.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/mylogo32.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/mylogo16.png?v=5.1.4">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+  <link rel="mask-icon" href="/images/mylogo.png?v=5.1.4" color="#222">
 
 
 
@@ -83,7 +83,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="tags test">
 <meta property="og:url" content="http://yoursite.com/2018/03/06/tags-test/index.html">
-<meta property="og:site_name" content="Fromlee bolg">
+<meta property="og:site_name" content="Fromlee&#39;s blog">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2018-03-06T08:05:33.092Z">
 <meta name="twitter:card" content="summary">
@@ -97,7 +97,7 @@
     root: '/',
     scheme: 'Mist',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -123,7 +123,7 @@
 
 
 
-  <title>tags test | Fromlee bolg</title>
+  <title>tags test | Fromlee's blog</title>
   
 
 
@@ -144,6 +144,8 @@
 
   <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
+    <!-- add new -->
+   	<a href="https://github.com/leefrom"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub"></a>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
@@ -153,7 +155,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Fromlee bolg</span>
+        <span class="site-title">Fromlee's blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -265,11 +267,11 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Fromlee">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fromlee bolg">
+      <meta itemprop="name" content="Fromlee's blog">
     </span>
 
     
@@ -333,6 +335,13 @@
     
     
     
+      
+       <div>
+        
+
+
+       </div>
+      
 
     
 
@@ -344,9 +353,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Testing/" rel="tag"># Testing</a>
+            <a href="/tags/Testing/" rel="tag"><i class="fa fa-tag"></i> Testing</a>
           
-            <a href="/tags/Another-tag/" rel="tag"># Another tag</a>
+            <a href="/tags/Another-tag/" rel="tag"><i class="fa fa-tag"></i> Another tag</a>
           
         </div>
       
@@ -428,6 +437,10 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.jpg"
+                alt="Fromlee" />
+            
               <p class="site-author-name" itemprop="name">Fromlee</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
@@ -450,7 +463,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -461,7 +474,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -514,9 +527,10 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-s15"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Fromlee</span>
 
@@ -553,6 +567,8 @@
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
         
+          <span id="scrollpercent"><span>0</span>%</span>
+        
       </div>
     
 
@@ -583,18 +599,9 @@
 
 
 
-  
-  
 
 
 
-  
-  
-
-
-
-  
-  
 
 
 
@@ -633,26 +640,6 @@
   
   
     <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/three.min.js"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/canvas_lines.min.js"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/canvas_sphere.min.js"></script>
   
 
 
