@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[test]]></title>
-    <url>%2F2018%2F03%2F15%2Ftest%2F</url>
-    <content type="text"><![CDATA[just test]]></content>
+    <title><![CDATA[hexo+github+next主题更换+个人终端更换]]></title>
+    <url>%2F2018%2F03%2F15%2Fabout-hexo%2F</url>
+    <content type="text"><![CDATA[hexo+github+域名 hexo的部署前期我是看的这篇博客hexo+github搭建个人博客(超详细教程)，博主写的很详细了。总结下来就是： 首先安装git，其次安装node.js 新建hexo文件夹（这就是本地上博客所在的地方），在文件夹内使用git bash安装hexo ,命令npm install -g hexo（npm是随前面node.js一起安装的包管理工具），然后继续在hexo文件夹内部署hexo博客即可 然后按照步骤跟github链接上即可，在一系列部署之后我们每次只需要hexo clean清除一下缓存，之后hexo g -d就把网站部署到了github上。hexo g是将改动的在本地重新生成，hexo d是将生成的文件立即部署到网站 next主题更换hexo安装部署完成之后hexo文件夹内如图 public是每个我们hexo g之后的文件夹，也是我们deploy到github上的文件夹。总而言之是整个博客网站的html、css、js、images的渲染文件。 source是我们博客里面放各种文章以及博客跳转的页面也就是写博客的主要工作目录，e.g.下面这些建立的都在source文件夹里面。hexo new &#39;title&#39;新建文章，hexo new page &#39;page&#39;新建页面。 themes里面放的就是hexo的主题，最开始安装的时候有一个landscape的主题，对，就是你们localhost：4000看到的样子。 hexo有很多各种各样的主题，最终我选择了next，我们在themes文件夹下面直接git clone这个主题就行了，具体clone的链接点击next在github上面的项目然后复制链接即可。 在这里我们需要注意两个文件，hexo文件下的_config,yml文件通常在被称为站点配置文件。themes里面的next主题里面的_config.yml文件被称为主题配置文件。 一般与next主题自己有关的都是在主题配置文件里面设置，更改的布局及样式都是在next这个文件夹内的文件里面进行修改。 我们要做的唯一一件事情就是在站点配置文件下面theme后面改为next，这样就启动了next这个主题（.yml文件要注意空格）。 关于next主题的各项设置网上随便一搜一大把，大家唯一需要注意的是版本号，不同版本存在着一些细微的区别，但是大致相同。 在next里面layout这个文件夹里面的.swig文件是各种不同页面的布局，source文件则是页面的组件的css、image之类的。 祝大家享受搭建自己博客的过程，enjoy~关于博客的一些其他的内容我会在后续的文章里面写到，欢迎大家留言探讨~]]></content>
       <categories>
-        <category>anyway</category>
+        <category>hexo</category>
       </categories>
       <tags>
-        <tag>tst1</tag>
-        <tag>test2</tag>
+        <tag>hexo</tag>
+        <tag>next</tag>
       </tags>
   </entry>
 </search>
