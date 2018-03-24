@@ -75,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="Javascript,script,文档模式," />
+  <meta name="keywords" content="语法,保留字,关键字,变量,数据类型," />
 
 
 
@@ -86,18 +86,18 @@
 
 
 
-<meta name="description" content="&amp;lt;script&amp;gt;&amp;lt;script&amp;gt;下列的几个我经常见的属性：  async表示应该立即下载脚本，但不妨碍页面中的其他操作，比如下载其他资源或等待加载其他脚本，只对外部脚本文件有效。[异步]异步脚本一定会再页面的load事件前执行，但可能会在DOMContentLoaded事件触发之前或之后执行。 defer表示脚本可以延迟到文档完全被解析和显示之后再执行。[延迟] 放在hea">
-<meta name="keywords" content="Javascript,script,文档模式">
+<meta name="description" content="@(学习笔记)[javascript][基本概念] ###基本概念1.javascript对于大小写敏感 2.标识符（就是变量、函数、属性的名字或者函数的参数），标识符可以是按照下列格式规则组合起来的一或多个字符。  第一个字符必须是一个字母、下划线_或者一个美元符号$ 其他字符可以是字母、下划线、美元符号或者数字。按照惯例，ECMAScript标识符采用驼峰大小写格式（第一个字母小写，剩下单词的">
+<meta name="keywords" content="语法,保留字,关键字,变量,数据类型">
 <meta property="og:type" content="article">
-<meta property="og:title" content="script、noscript以及文档模式">
-<meta property="og:url" content="http://www.leefrom.top/2018/03/20/script、noscript以及文档模式/index.html">
+<meta property="og:title" content="语法、变量以及数据类型">
+<meta property="og:url" content="http://www.leefrom.top/2018/03/24/语法、变量以及数据类型/index.html">
 <meta property="og:site_name" content="Fromlee&#39;s blog">
-<meta property="og:description" content="&amp;lt;script&amp;gt;&amp;lt;script&amp;gt;下列的几个我经常见的属性：  async表示应该立即下载脚本，但不妨碍页面中的其他操作，比如下载其他资源或等待加载其他脚本，只对外部脚本文件有效。[异步]异步脚本一定会再页面的load事件前执行，但可能会在DOMContentLoaded事件触发之前或之后执行。 defer表示脚本可以延迟到文档完全被解析和显示之后再执行。[延迟] 放在hea">
+<meta property="og:description" content="@(学习笔记)[javascript][基本概念] ###基本概念1.javascript对于大小写敏感 2.标识符（就是变量、函数、属性的名字或者函数的参数），标识符可以是按照下列格式规则组合起来的一或多个字符。  第一个字符必须是一个字母、下划线_或者一个美元符号$ 其他字符可以是字母、下划线、美元符号或者数字。按照惯例，ECMAScript标识符采用驼峰大小写格式（第一个字母小写，剩下单词的">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-20T10:00:02.311Z">
+<meta property="og:updated_time" content="2018-03-24T10:53:06.964Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="script、noscript以及文档模式">
-<meta name="twitter:description" content="&amp;lt;script&amp;gt;&amp;lt;script&amp;gt;下列的几个我经常见的属性：  async表示应该立即下载脚本，但不妨碍页面中的其他操作，比如下载其他资源或等待加载其他脚本，只对外部脚本文件有效。[异步]异步脚本一定会再页面的load事件前执行，但可能会在DOMContentLoaded事件触发之前或之后执行。 defer表示脚本可以延迟到文档完全被解析和显示之后再执行。[延迟] 放在hea">
+<meta name="twitter:title" content="语法、变量以及数据类型">
+<meta name="twitter:description" content="@(学习笔记)[javascript][基本概念] ###基本概念1.javascript对于大小写敏感 2.标识符（就是变量、函数、属性的名字或者函数的参数），标识符可以是按照下列格式规则组合起来的一或多个字符。  第一个字符必须是一个字母、下划线_或者一个美元符号$ 其他字符可以是字母、下划线、美元符号或者数字。按照惯例，ECMAScript标识符采用驼峰大小写格式（第一个字母小写，剩下单词的">
 
 
 
@@ -127,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="http://www.leefrom.top/2018/03/20/script、noscript以及文档模式/"/>
+  <link rel="canonical" href="http://www.leefrom.top/2018/03/24/语法、变量以及数据类型/"/>
 
 
 
 
 
-  <title>script、noscript以及文档模式 | Fromlee's blog</title>
+  <title>语法、变量以及数据类型 | Fromlee's blog</title>
   
 
 
@@ -306,7 +306,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.leefrom.top/2018/03/20/script、noscript以及文档模式/">
+    <link itemprop="mainEntityOfPage" href="http://www.leefrom.top/2018/03/24/语法、变量以及数据类型/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Fromlee">
@@ -323,7 +323,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">script、noscript以及文档模式</h1>
+          <h1 class="post-title" itemprop="name headline">语法、变量以及数据类型</h1>
         
 
         <div class="post-meta">
@@ -339,8 +339,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-03-20T18:00:02+08:00">
-                2018-03-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-24T18:53:06+08:00">
+                2018-03-24
               </time>
             
           </span>
@@ -376,8 +376,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/03/20/script、noscript以及文档模式/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2018/03/20/script、noscript以及文档模式/" itemprop="commentCount"></span>
+                <a href="/2018/03/24/语法、变量以及数据类型/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/03/24/语法、变量以及数据类型/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -404,7 +404,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  705
+                  3,190
                 </span>
               
 
@@ -429,18 +429,88 @@
       
 
       
-        <h5 id="lt-script-gt"><a href="#lt-script-gt" class="headerlink" title="&lt;script&gt;"></a>&lt;script&gt;</h5><p>&lt;script&gt;下列的几个我经常见的属性：</p>
+        <p>@(学习笔记)[javascript][基本概念]</p>
+<p>###基本概念<br>1.javascript对于<b>大小写</b>敏感</p>
+<p>2.标识符（就是变量、函数、属性的名字或者函数的参数），标识符可以是按照下列格式规则组合起来的一或多个字符。</p>
 <ul>
-<li><code>async</code>表示应该立即下载脚本，但不妨碍页面中的其他操作，比如下载其他资源或等待加载其他脚本，只对外部脚本文件有效。[异步]<br>异步脚本一定会再页面的load事件前执行，但可能会在DOMContentLoaded事件触发之前或之后执行。</li>
-<li><code>defer</code>表示脚本可以延迟到文档完全被解析和显示之后再执行。[延迟]<br> 放在head标签里面的时候加上defer属性脚本会立即下载，但延迟执行。</li>
-<li><code>type</code>表示编写代码使用的脚本语言的内容类型（MIME类型），type值默认为text/javascript，但是服务器在传输过程中使用的MIME类型通常是application/x-javascript,type不设置为这个值是因为设置这个值可能导致脚本被忽略。</li>
+<li>第一个字符必须是一个<b>字母、下划线_或者一个美元符号$</b></li>
+<li>其他字符可以是字母、下划线、美元符号或者数字。<br>按照惯例，ECMAScript标识符采用<b>驼峰</b>大小写格式（第一个字母小写，剩下单词的首字母大写）</li>
 </ul>
-<p>在使用&lt;script&gt;解析嵌入代码的时候不要在任何地方出现&lt;/script&gt;,会认为是结束的标志，若有需要使用转义字符\来解决这个问题。</p>
-<p>&emsp;&emsp;在引入外部js文件的时候是<code>&lt;script type=&quot;text/javascript&quot; src=&quot;xx.js&quot;&gt;</code>，如果在引入外部js文件的同时包含嵌入的代码，嵌入的代码会被忽略只会下载并执行外部脚本文件。引入外部文件浏览器会根据具体的设置来缓存链接的所有外部文件，如果有两个页面都使用同一个文件，那么这个文件只需下载一次，最终结果能够加快页面的加载速度。</p>
-<p>&emsp;&emsp;通过src属性还可以包含来自外部域的javascript文件，与img相同，可以指向当前HTML页面所在域之外的某个域中的完整URL。</p>
-<p>&emsp;&emsp;无论如何包含代码。只要不存在defer和async属性，浏览器都会按照&lt;script&gt;元素在页面出现的先后顺序对他们依次进行解析。defer会按照前后顺序执行，但标记async的脚本并不保证按照他们的先后顺序执行。</p>
-<h5 id="lt-noscript-gt"><a href="#lt-noscript-gt" class="headerlink" title="&lt;noscript&gt;"></a>&lt;noscript&gt;</h5><p>&emsp;&emsp;&lt;noscript&gt;是在浏览器不支持js脚本的时候会显示出来。<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">noscript</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">p</span>&gt;</span>本页面需要浏览器支持Javascript<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">noscript</span>&gt;</span>  </span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
-<h5 id="文档模式"><a href="#文档模式" class="headerlink" title="文档模式"></a>文档模式</h5><p>&emsp;&emsp;文档模式是通过文档类型Doctype切换来实现的，最初的两种文档模式是混杂模式和标准模式。<br> &emsp;&emsp;如果在文档的开始处没有发现文档类型声明，则所有的浏览器会默认开启混杂模式，但是不同浏览器咋这种模式下的行为差异非常大。<br>&emsp;&emsp;而标准模式会让浏览器的行为更接近标准行为，准标准模式与标准模式差别不大。</p>
+<p>####严格模式<br>3.<b>严格模式<code>use strict</code></b> 为js定义了一种不同的解析与执行模型，在严格模式下，一些不确定的行为将得到处理，而且对某些不安全的操作也会抛出错误。这串字符是一个编译指示，用于告诉支持js引擎切换到严格模式。</p>
+<p>4.保留字与关键字不能作为标识符使用。</p>
+<h4 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h4><p>5.ECMAScript的变量是松散类型的，可以保存任何类型的数据。定义变量的时候要用var操作符，<code>var message;</code>这样定义会保存一个undefined的值，在函数中定义var会将该变量定义成局部变量，在函数退出后就会被销毁掉。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">var</span> message = <span class="string">"hi"</span>;  <span class="comment">//局部变量</span></span><br><span class="line">&#125;</span><br><span class="line">test();</span><br><span class="line">alert(message); <span class="comment">//错误</span></span><br></pre></td></tr></table></figure></p>
+<p>&emsp;&emsp;变量message在函数中使用var定义，函数被调用的时候创建并为其赋值。在此之后，这个变量又会立即被销毁。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    message = <span class="string">"hi"</span>;  <span class="comment">//全局变量</span></span><br><span class="line">&#125;</span><br><span class="line">test();</span><br><span class="line">alert(message); <span class="comment">//"hi"</span></span><br></pre></td></tr></table></figure></p>
+<p>省略var之后message成为了全局变量，只要调用过一次test()函数，这个变量就有了定义，就可以在函数外部任何的地方被访问到。<strong>但是不推荐在函数内部定义全局变量，这样很难维护。</strong><br>　　由于ECMAScript是松散类型的，可以用一条语句定义多个变量，只需要像下面这样把每个变量用逗号分隔开即可（换行和变量缩进不是必须的，但是这样可提高代码的可读性）：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> message = <span class="string">"hi"</span>,</span><br><span class="line">    found = <span class="literal">false</span>,</span><br><span class="line">    age = <span class="number">29</span>;</span><br></pre></td></tr></table></figure></p>
+<h4 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h4><p>6.由于ECMAScript是松散类型的，因为需要用typeof来检测给定变量的数据类型，typeof是一个操作符而不是函数，因此type()可以使用但是不是必须的。<br><strong>从技术角度上面讲，函数在ECMAScript中是对象，不是一种数据类型，然而函数也确实有一些特殊的属性，所以通过typeof操作符来区分函数和其他对象是有必要的</strong></p>
+<p>ECMAScript中有5种简单的数据类型(基本数据类型)，</p>
+<ul>
+<li><p><b>Undefined</b>   //typeof值未定义<br>&nbsp;undefined类型只有一个值，即特殊的undefined，<code>var message;</code>声明变量但未对其初始化的时候，这个变量的值就是undefined。<br>但是包含undefined的值与尚未定义的变量还是不一样的。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> message;</span><br><span class="line">alert(message);  <span class="comment">//"undefined"</span></span><br><span class="line">alert(age);  <span class="comment">//age未定义，产生错误</span></span><br><span class="line"></span><br><span class="line">但是用<span class="keyword">typeof</span>的结果是不一样的</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> message;</span><br><span class="line">alert(<span class="keyword">typeof</span> message);   <span class="comment">//"undefined"</span></span><br><span class="line">alert(<span class="keyword">typeof</span> age);    <span class="comment">//"undefined"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><b>Null</b><br>&nbsp;null也是只有一个值的类型，值为null。从逻辑角度看null值表示一个<b>空对象</b>指针，而是为什么使用typeof操作符检测null值时会返回“object”的原因。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> call = <span class="literal">null</span>;</span><br><span class="line">alert(<span class="keyword">typeof</span> car);  <span class="comment">//"object"</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>&emsp;如果定义的变量在将来用于保存对象，那么最好将该变量初始化为null而不是其他值。这样的话只要直接检查null就可以知道相应的变量是否已经保存了一个对象的引用。<br>如下：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (car != <span class="literal">null</span>)&#123;</span><br><span class="line">    <span class="comment">// 对car对象进行某些操作</span></span><br><span class="line">&#125;</span><br><span class="line">实际上<span class="literal">undefined</span>的值是派生自<span class="literal">null</span>值的，所以</span><br><span class="line">alert(<span class="literal">null</span> == <span class="literal">undefined</span>);  <span class="comment">//true</span></span><br></pre></td></tr></table></figure></p>
+<p>&emsp;null==undefined总是返回true。<br>尽管null和undefined有这样关系，但是null和undefined的用途完全不同。<br>我们知道不需要将一个值显示的设置为undefined，但是有必要将一个需要保存对象的变量在还没有保存变量时设置为null。<br>这样不仅可以体现null作为空对象指针的惯例，而且也有助于进一步区分null和undefined。</p>
+<ul>
+<li><b>Boolean</b>     // typeof值是布尔值<br>&nbsp;Boolean类型是ECMAScript中使用的最多的一种类型，该类型只有两个字面值：true和false。这两个值和数字值不是一回事，true不一定是1，false也不一定等于0,需要注意的是true和false是区分大小写的，True和False不是Boolean值，只是标识符。<br>&emsp;虽然Boolean类型的字面值只有两个，但ECMAScript中所有类型的值都与这两个Boolean值等价的值。<strong>只需要用转型函数<code>Boolean()</code></strong>转换即可。<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> message = <span class="string">"hello word"</span>;</span><br><span class="line"><span class="keyword">var</span> messageAsBoolean = <span class="built_in">Boolean</span>(message);  <span class="comment">//true值</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>&emsp;转值表如下：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">数据类型</th>
+<th style="text-align:center">转换为true的值</th>
+<th style="text-align:center">转换为false的值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Undefined</td>
+<td style="text-align:center">N/A</td>
+<td style="text-align:center">undefined</td>
+</tr>
+<tr>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center">true</td>
+<td style="text-align:center">false</td>
+</tr>
+<tr>
+<td style="text-align:center">String</td>
+<td style="text-align:center">任何非空字符串</td>
+<td style="text-align:center">“”(空字符串)</td>
+</tr>
+<tr>
+<td style="text-align:center">Number</td>
+<td style="text-align:center">任何非零数字值(包括无穷大)</td>
+<td style="text-align:center">0和NaN</td>
+</tr>
+<tr>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">任何对象</td>
+<td style="text-align:center">null</td>
+</tr>
+</tbody>
+</table>
+<p>&emsp;这些转换规则对理解流控制语句(if语句等)自动执行相应的Boolean转换非常重要。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> message = <span class="string">"hello world"</span>;</span><br><span class="line"><span class="keyword">if</span> (message)&#123;</span><br><span class="line">    alert(<span class="string">"Value is true"</span>);   <span class="comment">//会alert出来</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li><b>Number</b>    // typeof值是数值<br>&emsp;数值有整数和浮点数值，最基本的数值字面量格式是十进制整数(10)，除了十进制整数之外还可以通过八进制(012)或者16进制(0xA)字面值来表示。[括号里面是10在不同进制下面的的表现形式。八进制第一位必须是0，<b>如果数值超过了八进制的范围，那么前导零会被忽略，后面的数值将被当做十进制数值数值进行解析，且八进制字面量在严格模式下是无效的</b>。十六进制前两位必须是0x，后跟十六进制的数字或字母，可以小写也可以大写。]</li>
+</ul>
+<p>&emsp;&emsp;<strong>浮点数值</strong>——由于保存浮点数值需要的内存空间是保存整数值的两倍，因为ECMAScript会不失时机的将浮点数值转换为整数值。在小数点后面没有跟任何数字或者这个浮点数值本身表示的就是一个整数，这些值都会被转换为整数。<br>&emsp;&emsp;对于极大或者极小的数值可以用e来表示，大写小写均可。e.g. 3.125e7=3.125X10^7=31250000；3e-7=3X10^-7=0.0000003。在默认情况下，ECMAScrpit会将那些小数点后面带有6个零以上的浮点数值转换为以e表示法表示的数值。<br>&emsp;&emsp;浮点数值的最高精度是17位小数，但在进行算术计算时其精度远远不如整数，例如0.1+0.2的结果不是0.3,而是0.300000004。所以舍入误差导致<strong>无法测试特定的浮点数值</strong>。</p>
+<p>&emsp;&emsp;<strong>数值范围</strong>——由于内存限制，ECMAScript并不能保存世界上所有的数值，存在最小数值以及最大数值分别存在Number.MIN_VALUE和Number.MAX_VALUE中。<br>&emsp;如果某次计算得到一个超出JS数值范围的值，那么这个值会自动转换为特殊的Infinity值。如果这个数值是负数会转换为-Infinity，如果这个数值是正数会被转换为Infinity。<br>&emsp;如果返回Infinity值，那么该值无法继续参与下一次的计算。<br>&emsp;想要确定一个数值是不是有穷的，可以使用<code>isFinite()</code>函数，这个函数在参数位于最小与最大数值之间时会返回true。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> result = <span class="built_in">Number</span>.MIN_VALUE+<span class="built_in">Number</span>.MAX_VALUE;</span><br><span class="line">alert(<span class="built_in">isFinite</span>(result));  <span class="comment">//false</span></span><br></pre></td></tr></table></figure></p>
+<p><em>访问Number.NEGETIVE_INFINITY和Number.POSITIVE_INFINITY也可以得到负和正的Infinity值。</em></p>
+<p>&emsp;&emsp;<strong>NaN</strong>——not a number用于表示一个本来要返回数值的操作数未返回数值的情况（这样就不会抛出错误了），在其他变成语言中任何数值除以非数值都会导致错误，从而停止代码执行。但在ECMAScript中，任何数值除以非数值会返回NaN，因此不会影响其他代码的执行。<br>&emsp;NaN本身有两个特点。<br>&emsp;&emsp;1.首先任何涉及NaN的操作，都会返回NaN。<br>&emsp;&emsp;2.NaN与任何值都不相等，包括NaN本身。<code>alert(NaN == NaN) //false</code><br>&emsp;针对NaN的这两个特点，ECMAScript定义了<code>isNaN( )</code>函数，这个函数接收一个任何类型的参数，函数会确定这个参数是否<strong>不是数值</strong>。<code>isNaN()</code>在接收一个值后会尝试将这个值转换为数值，不能转换为数值的值都会导致这个函数返回true。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="built_in">isNaN</span>(<span class="literal">NaN</span>));   <span class="comment">//true</span></span><br><span class="line">alert(<span class="built_in">isNaN</span>(<span class="number">10</span>));    <span class="comment">//false 10是一个数值</span></span><br><span class="line">alert(<span class="built_in">isNaN</span>(<span class="string">"10"</span>));  <span class="comment">//false 可以被转换为数值10</span></span><br><span class="line">alert(<span class="built_in">isNaN</span>(<span class="string">"blue"</span>));<span class="comment">//true 不能转换成数值</span></span><br><span class="line">alert(<span class="built_in">isNaN</span>(<span class="literal">true</span>));  <span class="comment">//false 可以被转换为数值1</span></span><br></pre></td></tr></table></figure></p>
+<p>*<code>isNaN()</code>确实也适用于对象，在基于对象调用<code>isNaN()</code>函数时，会首先调用对象的<code>valueof()</code>方法，然后确定该方法返回的值是否可以转换为数值。如果不能，则基于这个返回值再调用<code>toString()</code>方法，再测试返回值。</p>
+<p>&emsp;&emsp;<strong>数值转换</strong>——<code>Number()、parseInt()、psrseFloat()</code>可以将非数值转换为数值。<code>Number()</code>函数可以用于任何数据类型的转换，而另外两个则专门用于把字符串转换成数值。<br>&emsp;&emsp;<code>Number()</code>转换规则如下：<br>&emsp;&emsp;- Boolean类型，true和false将分别转换为1和0。<br>&emsp;&emsp;- 数字值，简单的传入和返回。<br>&emsp;&emsp;- null值，返回0。<br>&emsp;&emsp;- Undefined，返回NaN。<br>&emsp;&emsp;- 字符串<br>&emsp;&emsp;&emsp;1.字符串中只包含数字（包括带正号或者负号的情况）,则将其转换为十进制数值，”011”会变成11，前导0都会忽略（下方适用）。<br>&emsp;&emsp;&emsp;2.包含有效的浮点格式，e.g.”1.1”则将其转换为对应的浮点数值。<br>&emsp;&emsp;&emsp;3.包含有效的十六进制格式，e.g.”0xf”将其转换为相同大小的十进制整数值。<br>&emsp;&emsp;&emsp;4.如果字符串是空的，则将其转换为0。<br>&emsp;&emsp;&emsp;5.如果包含除上述格式之外的字符，则将其转换为NaN。<br>&emsp;&emsp;- 对象，调用<code>ValueOf()</code>方法，然后依照前面的规则转换返回的值。如果转换的结果是NaN，则调用对象的<code>toString()</code>方法，然后再次依照前面的规则转换返回的字符串。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> num1 = <span class="built_in">Number</span>(<span class="string">"hello world"</span>);   <span class="comment">//NaN</span></span><br><span class="line"><span class="keyword">var</span> num2 = <span class="built_in">Number</span>(<span class="string">""</span>);              <span class="comment">//0</span></span><br><span class="line"><span class="keyword">var</span> num3 = <span class="built_in">Number</span>(<span class="string">"000011"</span>);        <span class="comment">//11</span></span><br><span class="line"><span class="keyword">var</span> num4 = <span class="built_in">Number</span>(<span class="literal">true</span>);            <span class="comment">//1</span></span><br></pre></td></tr></table></figure></p>
+<p>&emsp;&emsp;<code>parseInt()</code>。在转换字符串时由于<code>Number()</code>比较复杂而且不够合理，因此在处理整数的时候更常用的是<code>parseInt()</code>函数。<code>parseInt()</code>函数在转换字符串时，更多的是看其是否符合数值模式。<br>&emsp;&emsp;它会忽略字符串前面的空格，直至找到第一个非空格字符。如果第一个字符不是数字字符，<code>parseInt()</code>就会返回NaN,也就是说用<code>parseInt()</code>转换空字符串会返回NaN(<code>Number()</code>对空字符返回0)。如果第一个字符是数字字符,会继续解析第二个字符，直到解析完所有后续字符或者遇到了一个非数字字符，e.g.”1234blue”会被转换成1234，”22.5”会被转换为22，因为小数点并不是有效的数字字符。<br>&emsp;&emsp;为了消除在使用<code>parseInt()</code>函数在八进制和十六进制可能存在的问题，可以为这个函数提供第二个参数：转换时使用的基数。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> num = <span class="built_in">parseInt</span>(<span class="string">"0xAF"</span>,<span class="number">16</span>);   <span class="comment">//175</span></span><br><span class="line">如果指定了<span class="number">16</span>作为第二个参数，字符串可以不带前面的<span class="string">"0x"</span>，</span><br><span class="line"><span class="keyword">var</span> num1 = <span class="built_in">parseInt</span>(<span class="string">"AF"</span>,<span class="number">16</span>);  <span class="comment">//175</span></span><br><span class="line"><span class="keyword">var</span> num2 = <span class="built_in">parseInt</span>(<span class="string">"AF"</span>);     <span class="comment">//NaN,因为没有指定说要解析十六进制的字符串，所以转换发现第一个字符不是数字字符。</span></span><br></pre></td></tr></table></figure></p>
+<p>&emsp;&emsp;<code>parseFloat()</code>。也是从第一个字符开始解析每个字符，一直解析到字符串末尾，或者解析到遇见一个无效的浮点数字字符为止。字符串中的第一个小数点是有效的，而第二个小数点就是无效的了，因此它后面的字符串将被忽略。除此之外，<code>parseFloat()</code>与<code>parseInt()</code>的第二个区别在于它可以识别前面讨论过的所有浮点数值格式，也包括十进制整数格式。但十六进制的字符串始终会被转换为0。如果字符串包含的是一个可解析为整数的数，会返回整数。</p>
+<ul>
+<li><b>String</b>       // typeof值是字符串<br>&nbsp;<br>还有一种复杂的数据类型</li>
+<li><b>Object</b>(由一组无须的名值对组成的)   // typeof值是对象或者null</li>
+<li>// typeof为function,这个值是函数的时候</li>
+</ul>
 
       
     </div>
@@ -450,39 +520,6 @@
       
        <div>
         
-<div class="my_post_copyright">
-  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
-
-  <!-- JS库 sweetalert 可修改路径 -->
-  <script type="text/javascript" src="http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js"></script>
-  <script src="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css">
-
-  <p><span>本文标题:</span>script、noscript以及文档模式</a></p>
-  <p><span>文章作者:</span>Fromlee</a></p>
-  <p><span>发布时间:</span>2018年03月20日 - 17:08:25</p>
-  <p><span>最后更新:</span>2018年03月20日 - 18:00:02</p>
-  <p><span>原始链接:</span><a href="/2018/03/20/script、noscript以及文档模式/" title="script、noscript以及文档模式">http://www.leefrom.top/2018/03/20/script、noscript以及文档模式/</a>
-    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://www.leefrom.top/2018/03/20/script、noscript以及文档模式/"  aria-label="复制成功！"></i></span>
-  </p>
-  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>
-</div>
-
-<script>
-    var clipboard = new Clipboard('.fa-clipboard');
-    clipboard.on('success', $(function(){
-      $(".fa-clipboard").click(function(){
-        swal({
-          title: "",
-          text: '复制成功',
-          html: false,
-          timer: 500,
-          showConfirmButton: false
-        });
-      });
-    }));
-</script>
-
 
 
        </div>
@@ -498,11 +535,15 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Javascript/" rel="tag"><i class="fa fa-tag"></i> Javascript</a>
+            <a href="/tags/语法/" rel="tag"><i class="fa fa-tag"></i> 语法</a>
           
-            <a href="/tags/script/" rel="tag"><i class="fa fa-tag"></i> script</a>
+            <a href="/tags/保留字/" rel="tag"><i class="fa fa-tag"></i> 保留字</a>
           
-            <a href="/tags/文档模式/" rel="tag"><i class="fa fa-tag"></i> 文档模式</a>
+            <a href="/tags/关键字/" rel="tag"><i class="fa fa-tag"></i> 关键字</a>
+          
+            <a href="/tags/变量/" rel="tag"><i class="fa fa-tag"></i> 变量</a>
+          
+            <a href="/tags/数据类型/" rel="tag"><i class="fa fa-tag"></i> 数据类型</a>
           
         </div>
       
@@ -515,8 +556,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/03/16/DOM/" rel="next" title="Javascript=ECMAScript+DOM+BOM">
-                <i class="fa fa-chevron-left"></i> Javascript=ECMAScript+DOM+BOM
+              <a href="/2018/03/20/script、noscript以及文档模式/" rel="next" title="script、noscript以及文档模式">
+                <i class="fa fa-chevron-left"></i> script、noscript以及文档模式
               </a>
             
           </div>
@@ -524,10 +565,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/03/24/语法、变量以及数据类型/" rel="prev" title="语法、变量以及数据类型">
-                语法、变量以及数据类型 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -694,7 +731,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#lt-script-gt"><span class="nav-number">1.</span> <span class="nav-text">&lt;script&gt;</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#lt-noscript-gt"><span class="nav-number">2.</span> <span class="nav-text">&lt;noscript&gt;</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#文档模式"><span class="nav-number">3.</span> <span class="nav-text">文档模式</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#变量"><span class="nav-number">1.</span> <span class="nav-text">变量</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#数据类型"><span class="nav-number">2.</span> <span class="nav-text">数据类型</span></a></li></ol></div>
             
 
           </div>
